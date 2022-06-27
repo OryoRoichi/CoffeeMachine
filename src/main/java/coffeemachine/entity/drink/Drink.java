@@ -1,4 +1,4 @@
-package coffeemachine.entity;
+package coffeemachine.entity.drink;
 
 public abstract class Drink {
     private int coffee;

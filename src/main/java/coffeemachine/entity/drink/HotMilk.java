@@ -1,4 +1,6 @@
-package coffeemachine.entity;
+package coffeemachine.entity.drink;
+
+import coffeemachine.entity.drink.Drink;
 
 public class HotMilk extends Drink {
     public HotMilk() {

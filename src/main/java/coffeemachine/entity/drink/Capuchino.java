@@ -1,4 +1,4 @@
-package coffeemachine.entity;
+package coffeemachine.entity.drink;
 
 public class Capuchino extends Drink {
     public Capuchino() {

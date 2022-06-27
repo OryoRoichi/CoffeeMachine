@@ -1,4 +1,6 @@
-package coffeemachine.entity;
+package coffeemachine.entity.container;
+
+import coffeemachine.entity.drink.Drink;
 
 public class MilkContainer extends Container {
     public MilkContainer(int capacity) {
@@ -6,7 +8,7 @@ public class MilkContainer extends Container {
         this.name="контейнер для молока";
     }
 
-    public void make(Drink drink) {
-
+    public void changeCapacity(Drink drink) {
+        this.capacity= this.capacity - drink.getMilk();
     }
 }
